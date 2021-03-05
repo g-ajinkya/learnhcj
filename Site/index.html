@@ -1,12 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior:smooth;">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>First Page</title>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">-->
+    <style>
+        /*article {
+            color : blue;
+            text-align: left;
+            width: 400px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 50px;
+        }
+        button{
+            background-color:pink;
+        }
+        button:nth-of-type(2){
+            background-color: blue;
+        }
+        #sec1{
+            background-color:lightblue;
+        }
+        nav{
+        }*/
+        header li {
+            list-style: none;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            text-align: center;
+            margin-bottom: 1px;
+            width: 200px;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+            color: purple;
+        }
+
+        header li:nth-child(3) {
+            font-size: 25px;
+        }
+
+        section li:nth-child(odd) {
+            background-color: lightslategray;
+        }
+
+        section div:nth-child(even):hover {
+            background-color: magenta;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello Everyone I am very happy Today!!</h1>
+    <header>sdafjdj jsadjj foiwer dfsajf jwei jadsfwe hfsdafw efsafjdkjwesfa
+        asjfkjdfiowefsadf
+        <nav>
+            <ul>
+                <li><a href="#sec1">Link for Section 1</a></li>
+                <li><a href="#sec2">Link for Section 2</a></li>
+                <li><a href="https://www.google.com/" target="_blank"
+                        onclick="alert('target=_blank is used for opening new tab')">Google.com</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--
+    <button class="btn btn-danger"></button>
+<button></button>
+<button></button>
+-->
+    <div> greater than symbol &gt;, &amp;, less than symbol &lt; dsfja
+        <br>
+        copyright symbol &copy; <br>
+        don't wrap words non &nbsp; breaking &nbsp; space <br>
+        &quot; This is a quote!! &quot; <br>
+    </div>
+    <section id="sec1">Section 1
+        <article>Article 1 <br>
+            jdsfj jsafj asfdjiowe dsfjajf owef<br>
+            sdfhaasdfj sdjaj jjsakjh
+            a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj
+        </article>
+        <article>Article 2 <br>
+            jdsfj jsafj asfdjiowe dsfjajf owef<br>
+            sdfhaasdfj sdjaj jjsakjh
+            a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</article>
+        <h1>Unordered List</h1>
+        <ul>
+            <li> eowe r</li>
+            <li> Milk</li>
+            <li>voovlsd
+                <ul>
+                    <li> safhdsdafh</li>
+                    <li>dsaf jdsjf</li>
+                </ul>
+            </li>
+            <li>sdfah fh</li>
+        </ul>
+        <article>Article 3 <br>
+            jdsfj jsafj asfdjiowe dsfjajf owef<br>
+            sdfhaasdfj sdjaj jjsakjh
+            a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</article>
+    </section>
+    <section id="sec2">Section 2
+        <article>Article 1 <br>
+            jdsfj jsafj asfdjiowe dsfjajf owef<br>
+            sdfhaasdfj sdjaj jjsakjh
+            a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</article>
+        <article>Article 2 <br>
+            jdsfj jsafj asfdjiowe dsfjajf owef<br>
+            sdfhaasdfj sdjaj jjsakjh
+            a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</article>
+        <h1>Ordered List</h1>
+        <ol>
+            <li>sdkaf j</li>
+            <li>sadfj sdjf</li>
+            <li>safdsdafj
+                <ol>
+                    <li>sadjfjdsf</li>
+                    <li>sdafjkdsajf</li>
+                </ol>
+            </li>
+            <li>sadfasdh</li>
+        </ol>
+        <article>Article 3 <br>
+            jdsfj jsafj asfdjiowe dsfjajf owef<br>
+            sdfhaasdfj sdjaj jjsakjh
+            a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</article>
+        <div>DIvision 1<br>sdfj soiwe fjsdfj a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</div>
+        <div>DIvision 2 <br>sdfj soiwe fjsdfj a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</div>
+        <div>DIvision 3</div>
+        <div>DIvision 4 <br>sdfj soiwe fjsdfj a<br>sadfjksdjfksjdafsdkfdskfk<br>
+            ksdajkadsjkljsdakfjskadd<br>
+            sdjafjsdkfjksdjfkjsdkfjksdjsdj</div>
+    </section>
+    <aside>Aside Element</aside>
+    <footer>Footer Element</footer>
 </body>
+
 </html>
