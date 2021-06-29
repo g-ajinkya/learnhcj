@@ -11,10 +11,14 @@ body{
 }
 #logo-img{
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: url('../images/Logo\ 64x64.png') no-repeat;
 =======
     background: url('images/Logo\ 64x64.png') no-repeat;
 >>>>>>> 224bfbc0992e6284a8cbda5139ca5e064c960f16
+=======
+    background: url('../images/Logo\ 64x64.png') no-repeat;
+>>>>>>> 73eca57d25a5fe3cee4e35286dbe9d88ddce92bb
     width: 64px;
     height: 64px;
     margin: 10px 15px 10px 0;
