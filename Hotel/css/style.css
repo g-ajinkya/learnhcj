@@ -138,7 +138,7 @@ body{
     line-height: 1.0;
 }
 #testimonials{
-    font-style:italic;
+    font-style: italic;
 }
 #testimonials p:nth-child(2){
     margin-top: 25px;
@@ -225,6 +225,7 @@ body{
         width: 360px;
         margin: 0 auto 15px;
     }
+    
     /* Footer */
     .panel-footer section{
         margin-bottom: 30px;
